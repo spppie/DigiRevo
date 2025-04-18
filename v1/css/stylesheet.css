@@ -1,0 +1,26 @@
+.doto-font {
+    font-family: "Doto", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 900;
+    font-style: normal;
+    font-variation-settings:
+      "ROND" 0;
+}
+.share-tech-mono-regular {
+    font-family: "Share Tech Mono", monospace;
+    font-weight: 400;
+    font-style: normal;
+}
+  
+
+p {
+    margin: 0;
+    font-size: 30px;
+}
+#squiggle {
+    border: solid 1px black;
+    width: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
