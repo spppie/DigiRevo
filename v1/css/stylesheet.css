@@ -1,3 +1,6 @@
+:root {
+    --marathongreen: #c0fe05;
+}
 .doto-font {
     font-family: "Doto", sans-serif;
     font-optical-sizing: auto;
@@ -11,11 +14,29 @@
     font-weight: 400;
     font-style: normal;
 }
-  
-
+header {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+}
+h1 {
+    font-size: 15vh;
+    background-color: var(--marathongreen);
+    margin: 20px;
+    width: 50vw;
+    padding: 50px;
+}
 p {
     margin: 0;
     font-size: 30px;
+}
+#scan-section {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 15vh;
+    gap: 4vh;
 }
 #squiggle {
     border: solid 1px black;
@@ -23,4 +44,63 @@ p {
     display: flex;
     flex-direction: column;
     align-items: center;
+}
+#scan-button {
+    background-color: var(--marathongreen);
+    color: white;
+    border: none;
+    width: 200px;
+    height: 50px;
+    font-size: 30px;
+}
+#scan-button-placeholder {
+    background-color: var(--marathongreen);
+    color: black;
+    width: 200px;
+    height: 50px;
+    font-size: 30px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    display: none;
+}
+#console-section {
+    background-color: white;
+    border: solid 2px black;
+    display: flex;
+    flex-direction: column;
+    width: 30vw;
+    position:fixed;
+    top: 20vh;
+    left: 20vw;
+    display: none;
+}
+#console-top {
+    border: solid 1px black;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+#console-top > p {
+    padding: 5px;
+}
+#console-top > p:last-of-type {
+    background-color: red;
+    height: 100%;
+    width: 27px;
+    padding-right: 4px;
+    padding-left: 10px;
+    text-align: center;
+}
+#console-top > p:last-of-type:hover {
+    cursor: pointer;
+}
+#console-top > p:last-of-type:active {
+    color: red;
+    background-color: black;
+}
+#console-bottom > p {
+    font-size: 15px;
 }
