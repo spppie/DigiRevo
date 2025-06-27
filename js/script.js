@@ -24,90 +24,17 @@ let firstCallScan = true;
 let firstCallConsole = true;
 
 // functions
-function closeWindow() {
-    close();
-}
-function sigilFunction() {
-    document.querySelector("#failed-connection").style.display = "none";
-    document.querySelector("#marathon-sigil").style.display = "inline-block";
-    setTimeout(closeWindow, 100);
-}
-function durandalFunc() {
-    document.querySelector("#durandal").style.display = "inline-block";
-}
 function disconnectFunction() {
     document.querySelector("#connect-div").style.display = "none";
     document.querySelector("#log-off").style.display = "flex";
-    setTimeout(durandalFunc, 900);
-    setTimeout(closeWindow, 1000);
 
 }
-function termSessionFunc() {
-    console.log("term session");
-    document.querySelector("#failed-p").style.display = "inline-block";
-    setTimeout(sigilFunction, 1500);
 
-}
-function closeWindowFunc() {
-    console.log("close window");
-    document.querySelector("#full-window-section").style.display = "none";
-    document.querySelector("#connection-failed-section").style.display = "flex";
-    
-    setTimeout(termSessionFunc, 2000);
-}
-function barFunction() {
-    const bar = document.querySelector(".bar");
-    const keepGoing = true;
-    if (keepGoing === true) {
-        switch(c) {
-            case 0:
-                bar.innerHTML = "#Ooooooo#";
-                break;
-            case 1:
-                bar.innerHTML = "#oOooooo#";
-                break;
-            case 2:
-                bar.innerHTML = "#ooOoooo#";
-                break;
-            case 3:
-                bar.innerHTML = "#oooOooo#";
-                break;
-            case 4:
-                bar.innerHTML = "#ooooOoo#";
-                break;
-            case 5:
-                bar.innerHTML = "#oooooOo#";
-                break;
-            case 6:
-                bar.innerHTML = "#ooooooO#";
-                break;
-            case 7:
-                bar.innerHTML = "#oooooOo#";
-                break;
-            case 8:
-                bar.innerHTML = "#ooooOoo#";
-                break;
-            case 9:
-                bar.innerHTML = "#oooOooo#";
-                break;
-            case 10:
-                bar.innerHTML = "#ooOoooo#";
-                break;
-            case 11:
-                bar.innerHTML = "#oOooooo#";
-                break;
-        }
-        c++;
-        if (c === 12) {
-            c = 0;
-        }
-    }
-}
 function connectSucFunc() {
     document.querySelector("#full-window-section").style.display = "none";
     document.querySelector("#connection-success").style.display = "flex";
-    setInterval(barFunction, 100);
 }
+
 function myTimer() {
     if (keepGoing === true) {
         // console.log(d, i, x);
@@ -323,17 +250,10 @@ function myTimer() {
         }
         if (x === 90) {
             z = 10;
-            let ranNum = Math.random();
             let connectStat;
-            console.log(ranNum);
             let connectStatus = "#CONNECTION HAS ";
-            if (ranNum >= .3) {
-                connectStatus += "BEEN SUCCESFUL";
-                connectStat = true;
-            } else if (ranNum < .3) {
-                connectStatus += "FAILED";
-                connectStat = false;
-            }
+            connectStatus += "BEEN SUCCESFUL";
+            connectStat = true;
             document.querySelector("#con-p-0").innerHTML = document.querySelector("#con-p-1").innerHTML;
             document.querySelector("#con-p-1").innerHTML = document.querySelector("#con-p-2").innerHTML;
             document.querySelector("#con-p-2").innerHTML = document.querySelector("#con-p-3").innerHTML;
