@@ -1,220 +1,56 @@
 :root {
-    --maincolor: #0099ff;
+    --maincolor: #0077ff;
+    --secondcolor: black;
 }
-.doto-font {
-    font-family: "Doto", sans-serif;
-    font-optical-sizing: auto;
-    font-weight: 900;
-    font-style: normal;
-    font-variation-settings:
-      "ROND" 0;
+html {
+    font-family: 'Courier New', Courier, monospace;
+    color: var(--maincolor);
+    background-color: var(--secondcolor);
+    font-weight: bold;
+    font-size: 20px;
 }
-.share-tech-mono-regular {
-    font-family: "Share Tech Mono", monospace;
-    font-weight: 400;
-    font-style: normal;
+a {
+    color: var(--maincolor);
+    text-decoration: none;
 }
-body {
-    background-color: black;
+.fa-square-arrow-up-right {
+    color: var(--maincolor);
+    margin-left: 3px;
 }
-#connection-failed-section {
+main {
+    padding: 10px;
+    border: solid 3px;
+    width: 95vw;
+    height: 95vh;
+    margin: 0 auto;
+}
+menu {
+    gap: 5px;
+    padding: 5px;
+    border: solid 3px var(--maincolor);
+    margin: 0;
+    margin-bottom: 5px;
     display: flex;
-    justify-content: center;
-    flex-direction: column;
-    align-items: center;
-    margin-top: 20vh;
-    gap: 30px;
-    display: none;
 }
-#failed-connection {
-    width: 700px;
-    height: 200px;
-    border: solid 5px var(--maincolor);
-    color: white;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-}
-#failed-connection > p {
-    display: none;
-}
-#failed-h2 {
-    font-size: 50px;
-}
-#marathon-sigil {
+#menu-header {
     background-color: var(--maincolor);
-    width: 500px;
-    height: 500px;
-    padding: 50px;
-    display: none;
+    color: var(--secondcolor);
+    padding: 5px;
+    margin: 0;
+    margin-bottom: 3px;
+    width: 120px;
 }
-header {
-    display: flex;
-    align-items: center;
-    flex-direction: column;
-    text-align: center;
+.menu-section {
+    border: solid 3px var(--maincolor);
+    border-top: solid 10px var(--maincolor);
+    padding: 5px;
+    width: 100%;
 }
-h1 {
-    font-size: 15vh;
-    background-color: var(--maincolor);
-    margin: 20px;
-    width: 50vw;
-    padding: 50px;
-}
-h2 {
-    color: white;
+#main-section {
+    border: solid 3px var(--maincolor);
+    height: 80vh;
+    padding: 10px;
 }
 p {
     margin: 0;
-    font-size: 30px;
-}
-#scan-console-black {
-    border: solid 1px black;
-}
-#scan-section {
-    color: white;
-    display: flex;
-    align-items: center;
-    flex-direction: column;
-    margin-top: 15vh;
-    gap: 4vh;
-}
-#squiggle {
-    border: solid 2px var(--maincolor);
-    border-top: solid 20px var(--maincolor);
-    width: 200px;
-    background-color: black;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-#scan-button {
-    background-color: var(--maincolor);
-    color: white;
-    border: none;
-    width: 200px;
-    height: 50px;
-    font-size: 30px;
-}
-#scan-button-placeholder {
-    background-color: var(--maincolor);
-    color: black;
-    width: 200px;
-    height: 50px;
-    font-size: 30px;
-    text-align: center;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    display: none;
-}
-#green-border {
-    border: solid 2px var(--maincolor);
-}
-#console-section {
-    border: solid 1px black;
-    background-color: black;
-    color: white;
-    display: flex;
-    flex-direction: column;
-    width: 30vw;
-    position:fixed;
-    top: 20vh;
-    left: 20vw;
-    display: none;
-}
-#console-top {
-    border: solid 2px var(--maincolor);
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-}
-#console-top > p {
-    padding: 5px;
-}
-#console-top > p:last-of-type {
-    background-color: red;
-    height: 100%;
-    width: 27px;
-    padding-right: 4px;
-    padding-left: 10px;
-    text-align: center;
-}
-#console-top > p:last-of-type:hover {
-    cursor: pointer;
-}
-#console-top > p:last-of-type:active {
-    color: red;
-    background-color: black;
-}
-#console-bottom > p {
-    font-size: 15px;
-}
-#connection-success {
-    color: black;
-    text-align: center;
-    display: flex;
-    align-items: center;
-    flex-direction: column;
-    display: none;
-}
-#connect-div {
-    display: flex;
-    align-items: center;
-    flex-direction: column;
-}
-#connect-div > h2 {
-    font-size: 10vh;
-    color: black;
-    background-color: var(--maincolor);
-    margin: 20px;
-    width: 50vw;
-    padding: 50px;
-}
-#section-connect {
-    color: white;
-    border: solid 2px var(--maincolor);
-    border-top: solid 20px var(--maincolor);
-    margin-top: 10vh;
-    margin-bottom: 5vh;
-    padding: 20px;
-}
-#section-connect > h3 {
-    font-size: 5vh;
-}
-#section-connect > h2 {
-    font-size: 10vh;
-}
-#section-connect > h3, #section-connect > h2 {
-    margin: 20px;
-}
-#disc-button {
-    background-color: var(--maincolor);
-    color: white;
-    border: none;
-    width: 200px;
-    height: 50px;
-    font-size: 30px;
-}
-#log-off {
-    margin-top: 20vh;
-    width: 70vw;
-    height: 30vh;
-    border: solid 2px var(--maincolor);
-    border-top: solid 20px var(--maincolor);
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    display: none;
-    text-align: center;
-}
-#log-off > h2 {
-    font-size: 15vh;
-    margin: 15px;
-
-}
-#durandal {
-    display: none;
 }
