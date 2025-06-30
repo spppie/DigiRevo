@@ -1,7 +1,3 @@
-:root {
-    --maincolor: #0077ff;
-    --secondcolor: black;
-}
 html {
     font-family: 'Courier New', Courier, monospace;
     color: var(--maincolor);
@@ -24,15 +20,23 @@ main {
     height: 95vh;
     margin: 0 auto;
 }
-menu {
-    gap: 5px;
-    padding: 5px;
-    border: solid 3px var(--maincolor);
-    margin: 0;
-    margin-bottom: 5px;
+#color-section {
     display: flex;
 }
-#menu-header {
+#main-nav {
+    border: solid 3px var(--maincolor);
+}
+#main-nav, #sub-nav {
+    display: flex;
+    gap: 5px;
+    padding: 5px;
+    margin: 0;
+    margin-bottom: 5px;
+}
+#sub-nav {
+    padding: 0;
+}
+#nav-header {
     background-color: var(--maincolor);
     color: var(--secondcolor);
     padding: 5px;
@@ -40,7 +44,7 @@ menu {
     margin-bottom: 3px;
     width: 120px;
 }
-.menu-section {
+.nav-section {
     border: solid 3px var(--maincolor);
     border-top: solid 10px var(--maincolor);
     padding: 5px;
@@ -51,6 +55,6 @@ menu {
     height: 80vh;
     padding: 10px;
 }
-p {
+/* p {
     margin: 0;
-}
+} */
