@@ -53,11 +53,11 @@
     <body>
         <div id="container">
             <main>
-                <p id="nav-header"><a href="portfolio.php" id="nav-header">PORTFOLIO_</a></p>
+                <p id="nav-header"><a href="index.php" id="nav-header">PORTFOLIO_</a></p>
                 <nav id="main-nav">
-                    <section class="nav-section"><a href="portfolio.php?page=HOME">HOME</a></section>
-                    <section class="nav-section"><a href="portfolio.php?page=REA">REA WORK</a></section>
-                    <section class="nav-section"><a href="portfolio.php?page=PERSONAL">PERSONAL</a></section>
+                    <section class="nav-section"><a href="index.php?page=HOME">HOME</a></section>
+                    <section class="nav-section"><a href="index.php?page=REA">REA WORK</a></section>
+                    <section class="nav-section"><a href="index.php?page=PERSONAL">PERSONAL</a></section>
                     <section class="nav-section"><a href="https://github.com/spppie" target="_blank" class="a-ext">GITHUB<i class="fa-solid fa-square-arrow-up-right fa-xs"></i></i></a></section>
                 </nav>
                 <section id="main-section">
