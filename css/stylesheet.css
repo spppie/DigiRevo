@@ -53,7 +53,7 @@ main {
 #main-section {
     border: solid 3px var(--maincolor);
     height: 80vh;
-    padding: 10px;
+    padding: 5px;
 }
 /* p {
     margin: 0;
