@@ -1,4 +1,4 @@
-html {
+html, input, select {
     font-family: 'Courier New', Courier, monospace;
     color: var(--maincolor);
     background-color: var(--secondcolor);
@@ -20,8 +20,45 @@ main {
     height: 95vh;
     margin: 0 auto;
 }
-#color-section {
+#top-bar {
     display: flex;
+    justify-content: space-between;
+}
+select, input {
+    height: 33px;
+    border-radius: 0;
+    border: solid 3px;
+    background-color: var(--secondcolor);
+    color: var(--maincolor);
+}
+#blue-select {
+    background-color: #0077ff;
+    color: var(--secondcolor);
+}
+#green-select {
+    background-color: #00c220;
+    color: var(--secondcolor);
+}
+#red-select {
+    background-color: #c50000;
+    color: var(--secondcolor);
+}
+#dark-mode {
+    background-color: black;
+}
+#light-mode {
+    background-color: #d3d3d3;
+}
+select:hover {
+    cursor: pointer;
+}
+.color-selector {
+    width: 30px;
+    height: 30px;
+    background-color: white;
+}
+.color-selector:hover {
+    cursor: pointer;
 }
 #main-nav {
     border: solid 3px var(--maincolor);
