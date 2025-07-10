@@ -1,0 +1,3 @@
+<section class="nav-section" <?php if ($_GET['page'] === 'REA'){echo 'id="selected"';}?>><a href="index.php?page=REA" <?php if ($_GET['page'] === 'REA'){echo 'class="selected"';}?>>REA WORK</a></section>
+<section class="nav-section" <?php if ($_GET['page'] === 'HOME'){echo 'id="selected"><a class="selected"';} else {echo '><a';}?> href="index.php?page=HOME">HOME</a></section>
+<section class="nav-section" <?= $_GET['page'] === 'HOME' ? 'id="selected"><a class="selected"' : '><a'?> href="index.php?page=HOME">HOME</a></section>

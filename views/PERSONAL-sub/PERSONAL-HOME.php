@@ -1,4 +1,4 @@
 <section>
-    <h1>Personal work</h1>
-    <p>Info about personal work, navigate using the nav bar above.</p>
+    <h1>PERSONAL WORK</h1>
+    <p>I have made a couple personal projects, including this portfolio website.</p>
 </section>

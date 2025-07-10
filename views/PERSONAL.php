@@ -19,8 +19,8 @@
     
 ?>
 <nav id="sub-nav">
-    <section class="nav-section"><a href="index.php?page=PERSONAL&sub-page=MARATHON">MARATHON</a></section>
-    <section class="nav-section"><a href="index.php?page=PERSONAL&sub-page=PORTFOLIO">PORTFOLIO</a></section>
+    <section class="nav-section" <?= $_GET['sub-page'] === 'MARATHON' ? 'id="selected"><a class="selected"' : '><a'?> href="index.php?page=PERSONAL&sub-page=MARATHON">MARATHON</a></section>
+    <section class="nav-section" <?= $_GET['sub-page'] === 'PORTFOLIO' ? 'id="selected"><a class="selected"' : '><a'?> href="index.php?page=PERSONAL&sub-page=PORTFOLIO">PORTFOLIO</a></section>
 </nav>
 
 <?php include 'views/PERSONAL-sub/PERSONAL-'.$sub_include.'.php'?>
