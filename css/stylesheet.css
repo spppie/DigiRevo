@@ -25,11 +25,12 @@ main {
     justify-content: space-between;
 }
 select, input {
-    height: 33px;
+    height: 30px;
     border-radius: 0;
     border: solid 3px;
     background-color: var(--secondcolor);
     color: var(--maincolor);
+    margin-bottom: 3px;
 }
 #blue-select {
     background-color: #0077ff;

@@ -1,1 +1,5 @@
-<p>about HTML</p>
+<section>
+    <h1>HTML</h1>
+    <p>For my final assignment HTML i had to make a table with all of the content of the lessons, see this page <a href="https://spppie.github.io/REA_work/HTML/eindopdracht/index.html" class="inline-link" target="_blank">here<i class="fa-solid fa-square-arrow-up-right fa-xs"></i></a> and the html code can be found in <a href="https://github.com/spppie/REA_work/tree/main/HTML/eindopdracht" class="inline-link" target="_blank">this repo<i class="fa-solid fa-square-arrow-up-right fa-xs"></i></a>.</p>
+    <p>i also did some work with <a href="https://spppie.github.io/REA_work/HTML/images/opdracht5/opdracht5.html" class="inline-link" target="_blank">imagemap<i class="fa-solid fa-square-arrow-up-right fa-xs"></i></a>(<a href="" class="inline-link" target="_blank">repo<i class="fa-solid fa-square-arrow-up-right fa-xs"></i></a>)and <a href="https://spppie.github.io/REA_work/HTML/images/opdracht6/opdracht6.html" class="inline-link" target="_blank">svg<i class="fa-solid fa-square-arrow-up-right fa-xs"></i></a>(<a href="" class="inline-link" target="_blank">repo<i class="fa-solid fa-square-arrow-up-right fa-xs"></i></a>)</p>
+</section>
