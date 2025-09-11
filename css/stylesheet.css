@@ -1,9 +1,27 @@
+svg {
+    margin: 3px;
+}
+form {
+    display: flex;
+    flex-direction: column;
+}
+.form-section {
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+}
 html, input, select {
     font-family: 'Courier New', Courier, monospace;
     color: var(--maincolor);
     background-color: var(--secondcolor);
     font-weight: bold;
     font-size: 18px;
+}
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 95vh;
 }
 a {
     color: var(--maincolor);
@@ -13,12 +31,18 @@ a {
     color: var(--highlightcolor);
     margin-left: 3px;
 }
+#container {
+    width: 85vw;
+    height: 85vh;
+}
 main {
     padding: 10px;
     border: solid 3px;
-    width: 95vw;
-    height: 95vh;
+    width: 85vw;
+    height: 85vh;
     margin: 0 auto;
+    display: flex;
+    flex-direction: column;
 }
 #top-bar {
     display: flex;
@@ -94,15 +118,27 @@ select:hover, input:hover {
     border: solid 3px var(--maincolor);
     border-top: solid 10px var(--maincolor);
     padding: 5px;
-    width: 100%;
+    width: 97%;
 }
 #main-section {
     border: solid 3px var(--maincolor);
-    max-height: 80vh;
+    /* height: 100%; */
     padding: 5px;
+    height: inherit;
+    overflow: auto;
+    scrollbar-color: var(--maincolor) var(--secondcolor);
+}
+#browsertag {
+    margin: 0;
+    color: var(--secondcolor);
+    background-color: var(--maincolor);
+    padding: 3px;
+    padding-bottom: 0;
+    padding-left: 5px;
 }
 .small-text {
     font-size: 16px;
+    margin: 0;
 }
 h1 {
     font-size: 40px;
@@ -125,4 +161,26 @@ ul.dashed > li {
 }
 ul.dashed > li:before {
   content: "- ";
+}
+@media only screen and (max-width: 900px) {
+    form {
+        flex-direction: row;
+        gap: 5px;
+    }
+    #top-bar {
+        flex-direction: column;
+        align-items: center;
+        gap: 10px;
+    }
+    svg {
+        width: 500px;
+    }
+    #container, main {
+        height: auto;
+    }
+}
+@media only screen and (max-width: 700px) {
+    #main-nav, #sub-nav {
+        flex-direction: column;
+    }
 }
