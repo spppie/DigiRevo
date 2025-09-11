@@ -165,7 +165,7 @@ ul.dashed > li {
 ul.dashed > li:before {
   content: "- ";
 }
-@media only screen and (max-width: 900px) {
+@media only screen and (max-width: 1000px) {
     form {
         flex-direction: row;
         gap: 5px;
@@ -176,13 +176,13 @@ ul.dashed > li:before {
         gap: 10px;
     }
     #HDSVG {
-        width: 500px;
+        width: 300px;
     }
     #container, main {
         height: auto;
     }
 }
-@media only screen and (max-width: 700px) {
+@media only screen and (max-width: 950px) {
     #main-nav, #sub-nav {
         flex-direction: column;
     }
