@@ -1,5 +1,8 @@
-svg {
+#HDSVG {
     margin: 3px;
+}
+#PFSVG {
+    width: 500px;
 }
 form {
     display: flex;
@@ -172,7 +175,7 @@ ul.dashed > li:before {
         align-items: center;
         gap: 10px;
     }
-    svg {
+    #HDSVG {
         width: 500px;
     }
     #container, main {
