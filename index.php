@@ -66,6 +66,28 @@
                 --secondcolor: <?=$mode?>;
                 --highlightcolor: <?=$hightlight?>
             }
+            @media all and (max-width: 1000px) {
+                form {
+                    flex-direction: row;
+                    gap: 5px;
+                }
+                #top-bar {
+                    flex-direction: column;
+                    align-items: center;
+                    gap: 10px;
+                }
+                #HDSVG {
+                    width: 300px;
+                }
+                #container, main {
+                    height: auto;
+                }
+            }
+            @media all and (max-width: 950px) {
+                #main-nav, #sub-nav {
+                    flex-direction: column;
+                }
+            }
         </style>
         <script src="js/script.js" defer></script>
         <script src="https://kit.fontawesome.com/9f77a6e6f4.js" crossorigin="anonymous"></script>
