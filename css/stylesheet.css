@@ -165,7 +165,7 @@ ul.dashed > li {
 ul.dashed > li:before {
   content: "- ";
 }
-@media screen and (max-width: 1000px) {
+@media all and (max-width: 1000px) {
     form {
         flex-direction: row;
         gap: 5px;
@@ -182,7 +182,7 @@ ul.dashed > li:before {
         height: auto;
     }
 }
-@media screen and (max-width: 950px) {
+@media all and (max-width: 950px) {
     #main-nav, #sub-nav {
         flex-direction: column;
     }
