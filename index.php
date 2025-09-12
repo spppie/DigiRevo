@@ -66,10 +66,9 @@
                 --secondcolor: <?=$mode?>;
                 --highlightcolor: <?=$hightlight?>
             }
-            @media all and (max-width: 1000px) {
-                form {
-                    flex-direction: row;
-                    gap: 5px;
+            @media all and (max-width: 1400px) {
+                body {
+                    justify-content: flex-start;
                 }
                 #top-bar {
                     flex-direction: column;
@@ -82,10 +81,13 @@
                 #container, main {
                     height: auto;
                 }
-            }
-            @media all and (max-width: 950px) {
                 #main-nav, #sub-nav {
                     flex-direction: column;
+                }
+            }
+            @media all and (max-width: 1000px) {
+                .nav-section {
+                    width: 95%;
                 }
             }
         </style>
@@ -117,7 +119,7 @@
                                 <option id="light-mode" value="#d3d3d3" <?php if ($mode == '#d3d3d3') echo "selected";?>>light</option>
                             </select>
                         </section>
-                        <input type="submit" value="submit">
+                        <input type="submit" value="submit" id="form-submit">
                     </form>
                 </div>
                 <nav id="main-nav">
