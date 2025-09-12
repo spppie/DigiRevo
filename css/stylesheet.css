@@ -182,8 +182,8 @@ ul.dashed > li:before {
         height: auto;
     }
 }
-/* @media only screen and (max-width: 950px) {
+@media only screen and (max-width: 950px) {
     #main-nav, #sub-nav {
         flex-direction: column;
     }
-} */
+}
