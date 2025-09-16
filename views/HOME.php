@@ -4,13 +4,13 @@
     <section>
         <h3>Education / Work experience</h3>
         <p>Hello I am Sem Visser, aspiring Full Stack webdev.</p> 
-        <p>I have experience with HTML, CSS, JavaScript, PHP and have worked on SEO. for personal project I have in the past worked with C# and python.</p>
+        <p>I have experience with HTML, CSS, JavaScript, PHP and have worked on SEO. for personal projects I have in the past worked with C# and python and the other WebDev languages.</p>
     </section>
     <section>
         <h3>Personal info</h3>
-        <p>I play games, many genres. some of my favourites are Sekiro, Death stranding and Factorio(1 rocket launched).</p>
-        <p>Also enjoy movies and shows, older and new. I love the cyberpunk genre and scifi in general, my favourites in this regard are Alien and Bladerunner.</p>
-        <p>Gunpla is my primary hobby I dont do much because it costs a lot of money, the detail oriented working and satisfying result when you finish a kit is a huge part of why I love it, and these things I also enjoy when working on code.</p>
+        <p>I play games, many genres. some of my favourites are Sekiro, Death stranding and Factorio.</p>
+        <p>Also I enjoy movies and shows, older and new. I love the cyberpunk genre and scifi in general, my favourites in this regard are Alien and Bladerunner.</p>
+        <p>Gunpla is my primary hobby I dont do much because it costs a lot of money, the detail oriented working and satisfying result when you finish a kit is a huge part of why I love it, and these things I also enjoy when working on in coding.</p>
     </section>
     <section>
         <h3>Personal projects</h3>
