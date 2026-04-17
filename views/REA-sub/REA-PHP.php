@@ -1,4 +1,5 @@
 <section>
     <h1>PHP</h1>
     <p>My biggest PHP project is this porfolio website, which you can learn more about <a href="index.php?page=PERSONAL&sub-page=PORTFOLIO" class="inline-link">here</a>.</p>
+    <p>For my final assignment in the PHP area of my study was to make a blog website which you can find <a href="#" class="inline-link">here</a> and the repo for it <a href="#" class="inline-link">here</a>, this blog website has a functional local login system, and moderation based on which user is logged in. For example a user thats made a post can change their post and delete comments on their post, while the comment poster can only delete their own comment, and the admin can delete all posts but must give a reason. the blog has a built in user creator accessable by the admin account. there's also a profile overview list, and sorting and filtering on all blog posts. GitHub pages is being difficult about this right now.</p>
 </section>
